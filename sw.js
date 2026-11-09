@@ -1,5 +1,5 @@
 // Önce ağdan dener (güncellemeler hemen gelsin), ağ yoksa önbellekten açar.
-var CACHE = "balon-v1";
+var CACHE = "balon-v3";
 var FILES = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", function (e) {
